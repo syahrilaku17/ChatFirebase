@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#fff"
+              android:gravity="top">
+
+
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/inputName"
+              android:text="Name"
+              android:textColor="#000"
+              android:textSize="20dp"
+              android:layout_marginTop="20dp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+    />
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/inputStatus"
+              android:text="Status"
+              android:textColor="#000"
+              android:textSize="20dp"
+              android:layout_marginTop="20dp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              />
+
+    <Button android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Save"
+            android:textSize="20sp"
+            android:background="#000"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn_save"
+    />
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/lihatdata"
+              android:text="lihat data lebih lengkap >>>"
+              android:textColor="#3F51B5"
+              android:textSize="15sp"
+              android:layout_gravity="center"
+              android:layout_margin="50dp"
+    />
+</LinearLayout>
