@@ -3,10 +3,8 @@
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:background="#fff"
+              android:background="@drawable/gradient_dua"
               android:gravity="top">
-
-
 
     <EditText android:layout_width="match_parent"
               android:layout_height="wrap_content"
@@ -34,7 +32,7 @@
             android:layout_height="50dp"
             android:text="Save"
             android:textSize="20sp"
-            android:background="#000"
+            android:background="@drawable/radius"
             android:textColor="#fff"
             android:layout_gravity="center"
             android:gravity="center"
@@ -46,6 +44,24 @@
               android:layout_height="wrap_content"
               android:id="@+id/lihatdata"
               android:text="lihat data lebih lengkap >>>"
+              android:textColor="#3F51B5"
+              android:textSize="15sp"
+              android:layout_gravity="center"
+              android:layout_margin="50dp"
+    />
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/uploadgambar"
+              android:text="upload gambar?"
+              android:textColor="#3F51B5"
+              android:textSize="15sp"
+              android:layout_gravity="center"
+              android:layout_margin="50dp"
+    />
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/uploadgambar2"
+              android:text="upload gambar 2?"
               android:textColor="#3F51B5"
               android:textSize="15sp"
               android:layout_gravity="center"

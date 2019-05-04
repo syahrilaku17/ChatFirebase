@@ -8,6 +8,8 @@ import android.widget.TextView
 import android.widget.Toast
 import com.example.myapplication.R
 import com.example.myapplication.ShowData
+import com.example.myapplication.UploadAct
+import com.example.myapplication.UploadType2
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import kotlinx.android.synthetic.main.add_data.*
@@ -25,6 +27,14 @@ class Add_Data_Act : AppCompatActivity() {
 
         lihatdata.setOnClickListener {
             val intent = Intent(this, ShowData::class.java)
+            startActivity(intent)
+        }
+        uploadgambar.setOnClickListener {
+            val intent = Intent(this, UploadAct::class.java)
+            startActivity(intent)
+        }
+        uploadgambar2.setOnClickListener {
+            val intent = Intent(this, UploadType2::class.java)
             startActivity(intent)
         }
         refDb = FirebaseDatabase.getInstance().getReference("USERS")
